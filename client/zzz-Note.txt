@@ -1,0 +1,19 @@
+# downgrade react
+npm i react-script@2.1.8
+
+# dependency
+
+npm i uuid axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment
+
+delete gitignore README and client>rm -rf .git
+add "proxy": "http://localhost:5000" in client>package.json
+
+in root>package.json
+"scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  }
+
+in public>index.html <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
