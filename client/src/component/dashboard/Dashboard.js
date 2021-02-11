@@ -27,19 +27,19 @@ const Dashboard = ({ getCurrentProfile, deleteAccount, auth: { user }, profile: 
                             <DashboardActions />
                             <Experience experience={profile.experience} />
                             <Education education={profile.education} />
-
+{/* 
                             <div className="my-2">
                                 <button className="btn btn-danger" style={{ float: 'right' }} onClick={deleteAccount}>Delete My Account</button>
-                            </div>
+                            </div> */}
                         </Fragment>
                     ) : (
                         <Fragment>
                             <p>Let's Create Your Profile :)</p>
                             <Link to="/create-profile" className="btn btn-primary my-1">
                                 Create Profile</Link>
-                            <div className="my-2">
+                            {/* <div className="my-2">
                                 <button className="btn btn-danger" style={{ float: 'right' }} onClick={deleteAccount}>Delete My Account</button>
-                            </div>
+                            </div> */}
                         </Fragment>
 
                     )}
