@@ -54,4 +54,4 @@ cmd > heroku create (only for first time)
 cmd > git add .
 cmd > git commit -m "First Deploy"
 cmd > heroku git:remote -a connit (can be found in heroku.com -> Deploy tab)
-cmd > git push heroku master
+cmd > git push heroku master / git push -f heroku master (you need to force it unless you pull the repo)
