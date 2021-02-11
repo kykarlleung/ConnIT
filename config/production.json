@@ -1,5 +1,5 @@
 {
-    "mongoURI": "mongodb+srv://kaleung:kaleung123@devconnector.9rtov.mongodb.net/test?retryWrites=true&w=majority",
+    "mongoURI": "mongodb+srv://kaleung:kaleung123@cluster0.ibaim.mongodb.net/collection1?retryWrites=true&w=majority",
     "jwtSecret": "mysecrettoken",
     "githubToken": "a9687a827181fb83e7ee40ad32a1d0349d3b5034"
 }
