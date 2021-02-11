@@ -49,7 +49,7 @@ if (process.env.NODE_ENV === 'production') {
 
 
 
-cmd > heroku create
+cmd > heroku create (only for first time)
 
 cmd > git add .
 cmd > git commit -m "First Deploy"
